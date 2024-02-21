@@ -1,7 +1,7 @@
-Portfolio Website
+##Portfolio Website
 This portfolio website showcases my projects and skills, providing visitors with an overview of my work and expertise. It was built using a combination of technologies and features aimed at delivering a seamless and engaging user experience.
 
-Technologies Used
+#Technologies Used
 React.js: The frontend of the website is built using React.js, allowing for dynamic and interactive user interfaces.
 Node.js: The backend server is powered by Node.js, enabling server-side logic and handling of requests.
 Express.js: Express.js is utilized to create a robust and scalable backend API for handling various functionalities.
