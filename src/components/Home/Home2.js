@@ -2,13 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { useTheme } from "../../ThemeContext";
+import MovableStarParticles from "../Particle"; // Import the MovableStarParticles component
 
 function Home2() {
   const { isDarkMode } = useTheme();
@@ -110,6 +107,8 @@ function Home2() {
           </Row>
         </Container>
       </Container>
+      {/* Render the MovableStarParticles component here */}
+      <MovableStarParticles />
     </div>
   );
 }

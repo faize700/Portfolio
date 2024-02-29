@@ -75,12 +75,3 @@ function MovableStarParticles() {
 }
  
 export default MovableStarParticles;
-
-
-
-
-
-
-
-
-
