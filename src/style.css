@@ -569,6 +569,7 @@ body {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
+  
 }
 
 .project-card {
@@ -577,6 +578,7 @@ body {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
+  z-index: 2;
 }
 
 .project-card-view {
@@ -697,6 +699,7 @@ body {
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+  z-index: 2;
 }
 
 @media (max-width: 767px) {
