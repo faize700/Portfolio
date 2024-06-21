@@ -7,6 +7,8 @@ import JokeIMG from "../../Assets/Projects/Joke-IMG.png";
 import Gallery from "../../Assets/Projects/Gallery.png";
 import Calculator from "../../Assets/Projects/Calculator.png";
 import Usability from "../../Assets/Projects/Usability.png";
+import CommentSystem from "../../Assets/Projects/CommentSystem.png";
+import ChatAI from "../../Assets/Projects/Chat AI.png";
 import { useTheme } from "../../ThemeContext";
 
 function Projects() {
@@ -42,6 +44,29 @@ function Projects() {
                 description="This project creates a whimsical web app, the 'Joke Generator' using HTML, CSS, and JavaScript. It fetches randomdad jokes from an API, delighting users with a simple click."
                 ghLink="https://github.com/faize700/Joke-Generator"
                 demoLink="https://faize700.github.io/Joke-Generator/"
+              />
+            </Col>
+          {/* Comment System */}
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={CommentSystem}
+                isBlog={false}
+                title="Comment System"
+                description="This project is a robust comment system built using React and Material UI, designed to provide a seamless user experience. It allows users to perform a variety of actions including adding, editing, and deleting comments. Additionally, it supports threaded conversations, enabling users to reply to individual comments."
+                ghLink="https://github.com/faize700/Comment"
+                demoLink="https://commentsystem.vercel.app/"
+              />
+            </Col>
+
+            {/* Chat AI */}
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={ChatAI}
+                isBlog={false}
+                title="Chat AI"
+                description="Built an AI Chat App using React, enabling users to ask questions on various topics, featuring responsive UI, dark mode, animated text, and real time answers via API integration"
+                ghLink="https://github.com/faize700/Chat-AI"
+                demoLink="https://chat-ai-six-delta.vercel.app/"
               />
             </Col>
 

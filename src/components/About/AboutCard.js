@@ -11,12 +11,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" , color: isDarkMode? "white": "rgb(0, 0, 0)"}}>
-            Hi Everyone, I am <span className="purple" style={{fontSize: "28px"}}>Gul Muazzam Faize </span>
-            from <span className="purple" style={{fontSize: "24px"}}> Lucknow, India.</span>
+            Hi Everyone, I'm <span className="purple" style={{fontSize: "28px"}}>Gul Muazzam Faize </span>
+            a code-slinging wizard from <span className="purple"> New Delhi, India.</span>
             <br />
-            I am currently employed as an intern software developer at R Cube Consulting (an US based Start-up).
+            I recently wrapped up my Master of Computer Application from <span className="purple">Chandigarh University</span> and before that, I was crunching numbers with a Bachelor of Commerce from <span className="purple">Delhi University.</span>
             <br />
-            I am currently enrolled in the Master of Computer Applications program at Chandigarh University.
+            At <span className="purple">R Cube Consulting Inc.</span> As a Frontend Developer Intern, I jazzed up user interfaces with React, making them sleek and snappy. I teamed up Axios with Node.js to chat with PostgreSQL, making CRUD ops a breeze and keeping the data flowing smoothly.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

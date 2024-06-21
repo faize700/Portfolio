@@ -394,7 +394,7 @@ body {
   /* background-image: var(--section-background-color) !important; */
 
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-top: 60px !important;
 }
 
 .light-mode .home-about-section {
@@ -402,7 +402,7 @@ body {
   /* background-image: var(--image-gradient) !important; */
 
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-top: 60px !important;
 }
 
 .home-about-description {
